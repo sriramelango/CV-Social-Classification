@@ -1,0 +1,10 @@
+names:
+- Confederate Flag
+- Gun
+- KKK Triangle
+- KKK
+- Noose
+- Swastika
+nc: 6
+train: /content/datasets/Anti-Social-Classification-1/train/images
+val: /content/datasets/Anti-Social-Classification-1/valid/images
