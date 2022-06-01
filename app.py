@@ -11,7 +11,7 @@ def load_model():
  '''
  Loading hub model & setting the preferences for the model  
  '''
- model = torch.hub.load('ultralytics/yolov5', 'custom', path='Content/best2.pt')
+ model = torch.hub.load('ultralytics/yolov5', 'custom', path='Content/cnn.pt')
  model.conf = 0.38 
  model.dnn=True
  model.agnostic=True
